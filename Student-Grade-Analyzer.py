@@ -57,6 +57,6 @@ while number_of_students <= 0:
     print(number_of_students, 'is invalid number of students')
     number_of_students = int(input('Please enter a new valid number of students: '))
 
-
+display_student_summary(number_of_students)
 
 
