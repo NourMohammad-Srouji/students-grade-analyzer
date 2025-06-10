@@ -20,4 +20,12 @@ def display_student_summary(number_of_students):
 
         total_grade += grade
 
-        
+    print("Students' Summary")
+    print('--------------------')
+
+    for i in range(len(names)):
+            print('Student', i+1)
+            print('Your name is', names[i])
+            print('Your grade is', grades[i])
+    print()
+
