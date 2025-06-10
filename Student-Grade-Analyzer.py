@@ -51,7 +51,7 @@ def get_highest_grade(names, grades):
 def count_passed(passed_students):
     print('The number of passed students is', passed_students)
         
-
+number_of_students = int(input('Enter the number of students: '))
 
 
 
