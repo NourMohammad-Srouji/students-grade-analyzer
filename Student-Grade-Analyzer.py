@@ -53,6 +53,10 @@ def count_passed(passed_students):
         
 number_of_students = int(input('Enter the number of students: '))
 
+while number_of_students <= 0:
+    print(number_of_students, 'is invalid number of students')
+    number_of_students = int(input('Please enter a new valid number of students: '))
+
 
 
 
