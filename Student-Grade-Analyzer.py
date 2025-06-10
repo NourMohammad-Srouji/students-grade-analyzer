@@ -37,5 +37,18 @@ def get_avg_grade(number_of_students, total_grade):
     average_grade = total_grade / number_of_students
     print('The average grade is', average_grade)
 
+def get_highest_grade(names, grades):
+    maximum = 0
+    for i in grades:
+        if i > maximum:
+            maximum = i
+            
+    for i in range(len(grades)):
+        if grades[i] == maximum:
+            print(names[i], 'is the student with the highest grade')
+            print(grades[i], 'is the grade of', names[i])
+            
+
+
 
 
