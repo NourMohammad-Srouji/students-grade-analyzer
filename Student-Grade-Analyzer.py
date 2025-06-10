@@ -33,7 +33,9 @@ def display_student_summary(number_of_students):
     get_highest_grade(names, grades)
     count_passed(passed_students)
 
-    
+def get_avg_grade(number_of_students, total_grade):
+    average_grade = total_grade / number_of_students
+    print('The average grade is', average_grade)
 
 
 
