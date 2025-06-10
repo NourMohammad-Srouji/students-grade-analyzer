@@ -29,3 +29,11 @@ def display_student_summary(number_of_students):
             print('Your grade is', grades[i])
     print()
 
+    get_avg_grade(number_of_students, total_grade)
+    get_highest_grade(names, grades)
+    count_passed(passed_students)
+
+    
+
+
+
