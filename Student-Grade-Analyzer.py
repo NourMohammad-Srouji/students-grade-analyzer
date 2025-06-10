@@ -47,7 +47,11 @@ def get_highest_grade(names, grades):
         if grades[i] == maximum:
             print(names[i], 'is the student with the highest grade')
             print(grades[i], 'is the grade of', names[i])
-            
+
+def count_passed(passed_students):
+    print('The number of passed students is', passed_students)
+        
+
 
 
 
