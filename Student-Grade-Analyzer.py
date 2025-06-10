@@ -17,3 +17,7 @@ def display_student_summary(number_of_students):
 
         names.append(student_name)
         grades.append(grade)
+
+        total_grade += grade
+
+        
