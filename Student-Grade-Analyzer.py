@@ -14,3 +14,6 @@ def display_student_summary(number_of_students):
         
         if grade >= 60:
             passed_students += 1
+
+        names.append(student_name)
+        grades.append(grade)
